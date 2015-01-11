@@ -8,7 +8,6 @@
 
 char errmsg[256];
 
-void clrScreen(int screen);
 static inline void unicodeToChar(char* dst, uint16_t* src, int max);
 int romSelect(char* path);
 int LoadBitmap(char* path, u32 width, u32 height, void* buf, u32 alpha, u32 startx, u32 stride, u32 flags);
